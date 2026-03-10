@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CamApiUtils">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\CamApiUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\NXOpen.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen.Guide">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\NXOpen.Guide.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen.UF">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\NXOpen.UF.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpen.Utilities">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\NXOpen.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="NXOpenUI">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\NXOpenUI.dll</HintPath>
+    </Reference>
+    <Reference Include="TDPOpen">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\TDPOpen.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolDesignerOpen">
+      <HintPath>..\..\..\..\..\..\Program Files\Siemens\NX2406\NXBIN\managed\ToolDesignerOpen.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
